@@ -49,8 +49,8 @@ if (name === 'Mary') {
 // Initialize a variable named "code" with a number value of 123.
 // Create a conditional determing if the value of variable "code" is equal to 123.
 // If "code" is equal to 123, assign the string "super" to the variable "secret" and reassign "code" equal to its current value multiplied by 2
-// If "code" is equal to 250, assign the string "duper" to the variable "secret"
-// Log to the console the variable "secret"
+// If "code" is greater than 250, assign the string "duper" to the variable "secret"
+// Log to the console the value of the variable "secret"
 
 //CODE
 /*
@@ -172,9 +172,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX - If age was equal to minAge, in this case, they would be allowed entry, here they are not. Drop the equal sign and include 
-// a space between the if declaration and the conditional.
-//if (minAge < age) {
+// FIX - If age was equal to minAge, in this case, they would be allowed entry, here they are not. Drop the equal sign and swap the conditional. Check if age is less than minAge.
+//if (age < minAge) {
 if(minAge <= age) {
   console.log('no entry');
 } else {
